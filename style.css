@@ -14,3 +14,15 @@ nav a:hover {
   background-color: #ddd;
   color: black;
 }
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo {
+  font-size: 2rem;
+  transition: 1s;
+}
+.logo:hover {
+  transform: rotate(0.2turn);
+}
