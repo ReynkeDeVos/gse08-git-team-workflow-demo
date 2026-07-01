@@ -26,3 +26,11 @@ header {
 .logo:hover {
   transform: rotate(0.2turn);
 }
+
+/* footer styling */
+footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: #333;
+}
