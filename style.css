@@ -27,10 +27,33 @@ header {
   transform: rotate(0.2turn);
 }
 
-/* footer styling */
+/* --- DER ABSOLUTE TRASH-FOOTER --- */
 footer {
   display: block;
+  background-color: rgba(
+    255,
+    0,
+    0,
+    0.85
+  ); /* Knalliges Rot mit etwas Transparenz */
+  color: yellow; /* Gelber Text auf rotem Grund = Augenkrebs */
+
+  /* Das hier zwingt den Footer mitten durch die Mitte */
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 100vh;
+  padding: 20px;
+  z-index: 9999; /* Legt sich über absolut alles drüber */
+
+  /* Der magische Trick für vertikalen Text von oben nach unten */
+  writing-mode: vertical-rl;
   text-align: center;
-  width: 100%;
-  background-color: #333;
+}
+
+footer a {
+  color: cyan; /* Blaue Links auf rotem Grund... herrlich unleserlich */
+  font-weight: bold;
 }
