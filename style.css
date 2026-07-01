@@ -1,8 +1,8 @@
 /* Basic styling for the navigation bar */
 nav {
-  background-color: #333;
+  background-color: #2f3a4a;
   color: white;
-  padding: 10px 0;
+  padding: 12px 0;
   text-align: center;
 }
 nav a {
@@ -11,6 +11,13 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  background-color: #ddd;
+  background-color: #f0f4f8;
   color: black;
+}
+#conflict-demo {
+  max-width: 720px;
+  margin: 24px auto;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
